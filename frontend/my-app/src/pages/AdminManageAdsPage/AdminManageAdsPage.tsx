@@ -47,7 +47,7 @@ const AdminManageAdsPage = () => {
             {ad.images && ad.images.length > 0 ? (
               <Box mb={3}>
                 <img
-                  src={`http://localhost${ad.images[0]}`}
+                  src={`http://13.53.172.2${ad.images[0]}`}
                   alt={ad.title}
                   style={{ width: "100%", borderRadius: "8px", objectFit: "cover", maxHeight: "300px" }}
                 />
